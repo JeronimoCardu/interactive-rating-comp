@@ -1,0 +1,84 @@
+@import "tailwindcss";
+
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+  font-size: 100%;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+  font-family: overpassSemiBold;
+  src: url(../public/fonts/Overpass-SemiBold.ttf);
+}
+@font-face {
+  font-family: overpassBold;
+  src: url(../public/fonts/Overpass-Bold.ttf);
+}
+@font-face {
+  font-family: overpassRegular;
+  src: url(../public/fonts/Overpass-Regular.ttf);
+}
+
+@theme {
+  --color-gray-950: #131518;
+  --color-gray-900: #262e38;
+  --color-gray-500: #969fad;
+
+  --color-orange: #fc7614;
+
+  /* GRADIENT FROM  to #181E27*/
+
+  --breakpoint-tablet: 768px;
+}
+
+@layer base {
+  .textPreset1 {
+    font-family: overpassBold;
+    font-size: 1.75rem;
+    line-height: 2.1875rem;
+  }
+  .textPreset2 {
+    font-family: overpassBold;
+    font-size: 1.5rem;
+    line-height: 1.875rem;
+  }
+  .textPreset3 {
+    font-family: overpassBold;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.2px;
+  }
+  .textPreset4Bold {
+    font-family: overpassBold;
+    font-size: 0.9375rem;
+    line-height: 1.1875rem;
+    letter-spacing: 2px;
+  }
+  .textPreset4Regular {
+    font-family: overpassRegular;
+    font-size: 0.9375rem;
+    line-height: 1.5rem;
+  }
+  .textPreset5Bold {
+    font-family: overpassBold;
+    font-size: 0.875rem;
+    line-height: 1.125rem;
+    letter-spacing: 1.87px;
+  }
+  .textPreset5SemiBold {
+    font-family: overpassSemiBold;
+    font-size: 0.875rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.17px;
+  }
+  .textPreset5Regular {
+    font-family: overpassRegular;
+    font-size: 0.875rem;
+    line-height: 1.375rem;
+  }
+}
