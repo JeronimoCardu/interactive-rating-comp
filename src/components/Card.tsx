@@ -17,7 +17,7 @@ export default function Card() {
             src="/images/illustration-thank-you.svg"
             alt="Thank You Image"
           />
-          <p className="textPreset5Regular tablet:text-[0.9375rem] text-orange w-fit self-center rounded-[1.4rem] bg-gray-700 px-[1rem] py-1">{`You selected ${optionSelected} of 5`}</p>
+          <p className="textPreset5Regular tablet:text-[0.9375rem] text-orange w-fit self-center rounded-[1.4rem] bg-gray-900 px-[1rem] py-1">{`You selected ${optionSelected} of 5`}</p>
           <div className="space-y-[1rem]">
             <h1 className="textPreset2 text-center text-[1.75rem] text-white">
               Thank You
