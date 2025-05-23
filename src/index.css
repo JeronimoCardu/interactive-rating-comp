@@ -13,15 +13,15 @@ body,
 
 @font-face {
   font-family: overpassSemiBold;
-  src: url(../public/fonts/Overpass-SemiBold.ttf);
+  src: url(/fonts/Overpass-SemiBold.ttf);
 }
 @font-face {
   font-family: overpassBold;
-  src: url(../public/fonts/Overpass-Bold.ttf);
+  src: url(/fonts/Overpass-Bold.ttf);
 }
 @font-face {
   font-family: overpassRegular;
-  src: url(../public/fonts/Overpass-Regular.ttf);
+  src: url(/fonts/Overpass-Regular.ttf);
 }
 
 @theme {
@@ -34,6 +34,7 @@ body,
   /* GRADIENT FROM  to #181E27*/
 
   --breakpoint-tablet: 768px;
+  --breakpoint-desktop: 1440px;
 }
 
 @layer base {
